@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  text-align:center;
+  background-image:url(background.jpg);
+  background-attachment: fixed;
+  background-size: 70%;
+  color: white;
+  
+}
+
+
+.white {
+  color: white;
+}
+img {
+  width: 80px;
+  margin:10px;
+  
+}
+.yt{
+  height: 78px;
+  width: 100px;
+}
+
+.pic {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  
+}
+
+footer {
+  background-color: wheat;
+  
+}
