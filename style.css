@@ -1,42 +1,63 @@
-html {
-  height: 100%;
-  width: 100%;
+.img{
+    width: 100%;
 }
+
 body {
-  text-align:center;
-  background-image:url(background.jpg);
-  background-attachment: fixed;
-  background-size: 70%;
-  color: white;
-  
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
 }
 
-
-.white {
-  color: white;
-}
-img {
-  width: 80px;
-  margin:10px;
-  
-}
-.yt{
-  height: 78px;
-  width: 100px;
+.background {
+    position: relative;
 }
 
-.pic {
-  width: 500px;
-  height: 500px;
-  border-radius: 10px;
+.name {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-family: "Work Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    font-size: clamp(40px ,5vw ,200px);
+    animation: slide 1s ;
+    transition: font-size 0.3s ;
+    z-index: 10;
 }
 
-h1 {
-  font-weight: bold;
-  
+@keyframes slide {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 20px;
+        opacity: 1;
+    }
+    
 }
 
-footer {
-  background-color: wheat;
-  
+.large-text{
+    font-size:clamp(50px ,1vw ,300px);
+    position: absolute;
+    top: 1px;
+}
+
+.face{
+    position: absolute;
+    width: 11%;
+    left: -1.5%;
+    top: 1.7%;
+    transition: width 0.3s ease-out;
+}
+
+.large-face{
+    position: absolute;
+    width: 115%;
+    left: -4%;
+    position: absolute;
+    top: -4px;
 }
