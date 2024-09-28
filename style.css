@@ -23,7 +23,6 @@ body {
     font-weight: 700;
     font-style: normal;
     color: white;
-    text-shadow: 4px 4px 10px black;
     font-size: 60px;
     animation: fade 3s ;
     transition: font-size 0.3s ;
