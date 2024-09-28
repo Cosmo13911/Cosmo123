@@ -1,5 +1,6 @@
 .img{
     width: 100%;
+    filter: brightness(70%);
 }
 
 body {
@@ -13,51 +14,39 @@ body {
 }
 
 .name {
+    text-align: center;
     position: absolute;
-    top: 17px;
-    left: 20px;
+    top: 40%;
+    left: 50%;
     font-family: "Work Sans", system-ui;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: white;
     text-shadow: 4px 4px 10px black;
-    font-size: clamp(40px ,5vw ,200px);
-    animation: slide 1s ;
+    font-size: 60px;
+    animation: fade 3s ;
     transition: font-size 0.3s ;
     z-index: 10;
+    transform: translate(-40%,-50%);
 }
 
-@keyframes slide {
+@keyframes fade{
     0% {
-        left: -100%;
         opacity: 0;
     }
     100% {
-        left: 20px;
         opacity: 1;
     }
     
 }
 
-.large-text{
-    font-size:clamp(50px ,1vw ,300px);
-    position: absolute;
-    top: 1px;
-}
-
 .face{
     position: absolute;
-    width: 11%;
-    left: -1.5%;
-    top: 1.7%;
-    transition: width 0.3s ease-out;
+    width: 60%;
+    left: 24.5%;
+    top: 4.6%;
+    z-index: 1;
+    filter: brightness(70%);
 }
 
-.large-face{
-    position: absolute;
-    width: 115%;
-    left: -4%;
-    position: absolute;
-    top: -4px;
-}
