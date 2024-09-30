@@ -3,10 +3,6 @@
     filter: brightness(70%);
 }
 
-h3{
-    padding: 0 30px;
-}
-
 .img, .face{
     padding-top: 60px;
 }
@@ -34,7 +30,7 @@ nav a{
     padding: 20px 40px;
 } 
 
-.a1{
+.a2{
     background-color: white;
     color: black;
 }
