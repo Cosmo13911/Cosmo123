@@ -27,7 +27,7 @@ nav a{
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 1rem;
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -114,7 +114,7 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
-    padding: 20px 40px;
+    padding: 40px 40px;
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -123,4 +123,5 @@ footer {
 .phone {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
